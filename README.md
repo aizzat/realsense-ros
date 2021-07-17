@@ -1,4 +1,4 @@
-# Quick note installation for ROS Noetic
+# Quick note Realsense installation from source for ROS Noetic
 
 1. Git clone https://github.com/aizzat/realsense-ros/ to catkin_ws/src
 2. Git clone https://github.com/aizzat/ddynamic_reconfigure to catkin_ws/src
