@@ -1,3 +1,26 @@
+# Quick note installation for ROS Noetic
+
+1. Git clone https://github.com/aizzat/realsense-ros/ to catkin_ws/src
+2. Git clone https://github.com/aizzat/ddynamic_reconfigure to catkin_ws/src
+3. Install Realsense release here using APT method- https://github.com/IntelRealSense/librealsense/releases/tag/v2.48.0
+4. Follow the detailed instruction below by Realsense. 
+
+
+Rviz file is provided for demo. 
+```
+demorviz/realsense.rviz - just to demo the realsense data
+demorviz/rvizpointcloud.rviz - to see the pointcloud example as in the section below
+```
+To run the rviz file above in the terminal: 
+```
+rviz
+```
+Then select the rviz file from the open config menu in RVIZ GUI. 
+
+![image 1](screenshotimages/realsenseinstall.png)
+![image 2](screenshotimages/rvizdemo.png)
+
+
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
 
