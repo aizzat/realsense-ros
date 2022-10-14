@@ -13,6 +13,7 @@ demorviz/rvizpointcloud.rviz - to see the pointcloud example as in the section b
 ```
 To run the rviz file above in the terminal: 
 ```
+roslaunch realsense2_camera rs_camera.launch align_depth:=true
 rviz
 ```
 Then select the rviz file from the open config menu in RVIZ GUI. 
